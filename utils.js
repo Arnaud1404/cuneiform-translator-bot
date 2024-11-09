@@ -89,10 +89,8 @@ export function untranslate(cuneiformStr) {
   let untranslateStr = '';
   let capitalizeNext = true;
 
-  for (const char of cuneiformStr) {
-    if (char === '𒀸') {
-      capitalizeNext = true;
-    }
+  for (let i = 0; i < cuneiformStr.length; i++) {
+    const char = cuneiformStr[i];
     const translatedChar = cuneiformMap[char] || char;
     if (capitalizeNext && /[a-zA-Z]/.test(translatedChar)) {
       untranslateStr += translatedChar.toUpperCase();
@@ -104,6 +102,9 @@ export function untranslate(cuneiformStr) {
       capitalizeNext = true;
     }
   }
+
+  // Capitalize 'i' if it is alone
+  untranslateStr = untranslateStr.replace(/\bi\b/g, 'I');
 
   return untranslateStr;
 }
