@@ -2,7 +2,7 @@
 
 This discord bot is designed to translate text between modern languages and pseudo cuneiform.
 
-![Cuneiform Translator Bot](preview.png)
+![Preview](assets/preview.png)
 
 ## Usage
 
