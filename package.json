@@ -1,8 +1,8 @@
 {
-  "name": "discord-getting-started",
+  "name": "cuneiform-translator-app",
   "private": true,
   "version": "1.0.0",
-  "description": "Discord example app",
+  "description": "Discord bot that takes a string as input and returns the closest cuneiform symbols",
   "main": "app.js",
   "type": "module",
   "engines": {
@@ -13,7 +13,7 @@
     "register": "node commands.js",
     "dev": "nodemon app.js"
   },
-  "author": "Shay DeWael",
+  "author": "Arnaud Gomes",
   "license": "MIT",
   "dependencies": {
     "discord-interactions": "^4.0.0",
