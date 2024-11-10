@@ -103,8 +103,6 @@ export function untranslate(cuneiformStr) {
     '𒍞': '-', // hyphen
     '𒂠': '_', // underscore
     '𒄭': '/', // slash
-    '𒈦': '(', // opening parenthesis
-    '𒆜': ')', // closing parenthesis
     '𒋧': '*'  // asterisk
   };
 
