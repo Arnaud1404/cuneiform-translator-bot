@@ -6,7 +6,7 @@ This discord bot is designed to translate text between modern languages and pseu
 
 ## Usage
 
-1. Add the bot to your server / user
+1. [Add](https://discord.com/oauth2/authorize?client_id=1304793681190060042) the bot to your server / user
 2. Use /translate Hello world to convert text to pseudo cuneiform
 3. Use /untranslate 𒀂𒀼𒁇𒁇𒆸 𒉼𒆸𒇲𒁇𒁓 to convert pseudo cuneiform to text
 
