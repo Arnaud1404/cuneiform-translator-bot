@@ -67,9 +67,7 @@ export function translate(str) {
     '-': '𒍞', // hyphen
     '_': '𒂠', // underscore
     '/': '𒄭', // slash
-    '(': '𒈦', // opening parenthesis
-    ')': '𒆜', // closing parenthesis
-    '*': '𒋧'  // asterisk
+    '*': '𒋧'  // asterisk 
   };
   
   const removeAccents = str =>
