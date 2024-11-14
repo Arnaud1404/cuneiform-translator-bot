@@ -109,7 +109,7 @@ export function untranslate(cuneiformStr) {
   let capitalizeNext = true;
 
   for (const char of cuneiformStr) {
-    if (char === '𒀸') {
+    if (char === '𒀭') {
       capitalizeNext = true;
     }
     const translatedChar = cuneiformMap[char] || char;
